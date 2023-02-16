@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<?import javafx.scene.control.Label?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hw8.problem1.JFXSceneController">
+   <children>
+      <Text layoutX="71.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="71.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone Number:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="71.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="71.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="71.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirm Password:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="206.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registration Form">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Label fx:id="usernameL" layoutX="320.0" layoutY="96.0"/>
+      <TextField fx:id="userNameId" layoutX="320.0" layoutY="99.0" prefHeight="25.0" prefWidth="238.0" promptText="Enter your username" />
+      <Label fx:id="phoneNumberL" layoutX="320.0" layoutY="122.0"/>
+      <TextField fx:id="phoneNumberId" layoutX="320.0" layoutY="135.0" prefHeight="25.0" prefWidth="238.0" promptText="Enter your phone number" />
+      <Label fx:id="emailL" layoutX="320.0" layoutY="158.0"/>
+      <TextField fx:id="emailId" layoutX="320.0" layoutY="174.0" prefHeight="25.0" prefWidth="238.0" promptText="Enter your e-mail" />
+      <Label fx:id="passwordL" layoutX="320.0" layoutY="198.0"/>
+      <TextField fx:id="passwordId" layoutX="320.0" layoutY="215.0" prefHeight="25.0" prefWidth="238.0" promptText="Enter your password" />
+      <Label fx:id="cPasswordL" layoutX="320.0" layoutY="238.0"/>
+      <TextField fx:id="cPasswordId" layoutX="320.0" layoutY="257.0" prefHeight="25.0" prefWidth="238.0" promptText="Confirm your password" />
+      <Button layoutX="188.0" layoutY="315.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="224.0" text="Register" onAction="#onRegistrationButtonClick" />
+      <Text fx:id="showMsg" layoutX="188.0" layoutY="400.0"/>
+   </children>
+</Pane>
