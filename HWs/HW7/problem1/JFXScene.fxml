@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hw7.problem1.JFXSceneController">
+   <children>
+      <Text layoutX="163.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Miles Driven" />
+      <Text layoutX="161.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gallons Used" />
+      <TextField fx:id="miles_driven" layoutX="253.0" layoutY="93.0" promptText="Miles Driven" />
+      <TextField fx:id="gallons_used" layoutX="253.0" layoutY="144.0" promptText="Gallons Used" />
+      <Button layoutX="161.0" layoutY="200.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="241.0" text="Calculate" onAction="#onCalculateButtonClick" />
+      <ScrollPane hbarPolicy="NEVER" layoutX="97.0" layoutY="236.0" prefHeight="140.0" prefWidth="369.0" vbarPolicy="ALWAYS">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+            <Text fx:id="showText" />
+        </content>
+      </ScrollPane>
+   </children>
+</Pane>
